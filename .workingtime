@@ -1,0 +1,151 @@
+{
+    "extConfig": {
+        "enums": [
+            {
+                "name": "ActionType",
+                "values": [
+                    "Building",
+                    "Codding",
+                    "Debugging",
+                    "Documenting",
+                    "Idle",
+                    "Testing"
+                ]
+            },
+            {
+                "name": "SessionState",
+                "values": [
+                    "Ongoing",
+                    "Idle",
+                    "Ended"
+                ]
+            }
+        ]
+    },
+    "data": [
+        {
+            "config": false,
+            "user": "edskate",
+            "dailySessions": [
+                {
+                    "date": "Wed Aug 12 2026",
+                    "sessions": [
+                        {
+                            "sessionInfo": {
+                                "id": "06d076f5-d980-41ac-9183-58a72603e33d",
+                                "duration": 610216,
+                                "idle": 823761,
+                                "state": "Ongoing",
+                                "durations": [
+                                    {
+                                        "id": "9da0b4fd-4d92-4a33-b68a-7608dcc58207",
+                                        "state": "Ongoing",
+                                        "begin": 1786545470741,
+                                        "end": 1786545470741,
+                                        "duration": 0
+                                    },
+                                    {
+                                        "id": "550d8e80-d3ba-47eb-82c1-f0004bb38840",
+                                        "state": "Idle",
+                                        "begin": 1786545470366,
+                                        "end": 1786545470741,
+                                        "duration": 375
+                                    },
+                                    {
+                                        "id": "a523e7e9-5ac6-401c-9207-22fe3f24b7f0",
+                                        "state": "Ongoing",
+                                        "begin": 1786545464886,
+                                        "end": 1786545470366,
+                                        "duration": 5480
+                                    },
+                                    {
+                                        "id": "6b7dc7e2-321a-4ee6-a56a-67ecd34d7bc4",
+                                        "state": "Idle",
+                                        "begin": 1786545427793,
+                                        "end": 1786545464886,
+                                        "duration": 37093
+                                    },
+                                    {
+                                        "id": "07239e8d-f065-4e6e-b529-efe478ec99da",
+                                        "state": "Ongoing",
+                                        "begin": 1786545346433,
+                                        "end": 1786545427793,
+                                        "duration": 81360
+                                    },
+                                    {
+                                        "id": "cd6fd885-5b04-4dad-bc3a-819be1d2d5e2",
+                                        "state": "Idle",
+                                        "begin": 1786545170356,
+                                        "end": 1786545346433,
+                                        "duration": 176077
+                                    },
+                                    {
+                                        "id": "38fd7a3d-7013-49e3-b888-6fcdfdc2374f",
+                                        "state": "Ongoing",
+                                        "begin": 1786544873927,
+                                        "end": 1786545170356,
+                                        "duration": 296429
+                                    }
+                                ],
+                                "filesExt": [
+                                    ".html",
+                                    ".vscode-chat-customizations-evaluations-#1-Chat Customizations Evaluations"
+                                ]
+                            },
+                            "actionType": "Codding"
+                        },
+                        {
+                            "sessionInfo": {
+                                "id": "3c33f204-819e-4f10-82c3-c092bac28403",
+                                "duration": 13504,
+                                "idle": 13504,
+                                "state": "Ongoing",
+                                "durations": [
+                                    {
+                                        "id": "6c63a78f-1185-4f6b-8812-db6a47106345",
+                                        "state": "Ongoing",
+                                        "begin": 1786545697688,
+                                        "end": 1786545697688,
+                                        "duration": 0
+                                    }
+                                ],
+                                "filesExt": [
+                                    ".json"
+                                ]
+                            },
+                            "actionType": "Documenting"
+                        },
+                        {
+                            "sessionInfo": {
+                                "id": "f9f0f03b-f134-40cf-ab17-9a4659c79e95",
+                                "duration": 24742,
+                                "idle": 59183,
+                                "state": "Idle",
+                                "durations": [
+                                    {
+                                        "id": "534c944c-294e-4fc3-8b8c-82d91624a9a7",
+                                        "state": "Idle",
+                                        "begin": 1786545735934,
+                                        "end": 1786545735934,
+                                        "duration": 0
+                                    },
+                                    {
+                                        "id": "f4fa5ece-6365-4ea3-a6bb-d0fa4493167b",
+                                        "state": "Ongoing",
+                                        "begin": 1786545711192,
+                                        "end": 1786545735934,
+                                        "duration": 24742
+                                    }
+                                ],
+                                "filesExt": [
+                                    ".html"
+                                ]
+                            },
+                            "actionType": "Idle"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
